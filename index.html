@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Dark Mode Toggle -->
+    <button id="dark-toggle">🌙</button>
+
+    <div class="container">
+
+            <!-- Logo -->
+            <div class="logo">
+                <span style="color:#4285F4;">Λ</span>
+                <span style="color:#EA4335;">Λ</span>
+                <span style="color:#FBBC05;">Ξ</span>
+                <span style="color:#4285F4;">S</span>
+                <span style="color:#34A853;">H</span>
+            </div>
+
+
+            
+            <!--alt="ΛΛΞSH Logo">-->
+
+        <!-- Search Box -->
+        <div class="search-wrapper">
+            <div class="search-box">
+
+                <!-- Search Icon -->
+                <svg class="icon" viewBox="0 0 24 24">
+                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5
+                    6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5
+                    4.99L20.49 19l-4.99-5zm-6 0C8.01 14 6 11.99 6
+                    9.5S8.01 5 10.5 5 15 7.01 15 9.5 12.99 14 10.5 14z"/>
+                </svg>
+
+                <!-- Input -->
+                <input id="search-input" type="text" autocomplete="off">
+
+                <!-- Mic Icon -->
+                <div class="mic-wrapper">
+                    <svg id="mic" class="icon mic" viewBox="0 0 24 24">
+                        <path d="M12 14a3 3 0 003-3V5a3 3 0 00-6 0v6a3 3 0 003 3zm5-3a5
+                        5 0 01-10 0H5a7 7 0 0014 0h-2zm-5 8a7.002 7.002 0 01-6.32-4H4a9
+                        9 0 0016 0h-1.68A7.002 7.002 0 0112 19z"/>
+                    </svg>
+
+                    <!-- Listening Dots -->
+                    <div id="mic-dots">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Auto-suggest dropdown -->
+            <ul id="suggestions" class="suggestions hidden"></ul>
+
+            
+        </div>
+
+        <!-- Buttons -->
+        <div class="buttons">
+            <button class="ripple">Search for Explore</button>
+            <button class="ripple">Motivations</button>
+        </div>
+    </div>
+
+    <!-- Languages -->
+    <div class="languages">
+        ΛΛΞSH offered in:
+        <a href="#">हिन्दी</a>
+        <a href="#">संस्कृत</a>
+        <a href="#">اردو</a>
+        <a href="#">Français</a>
+        <a href="#">Latinus</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-left">Country</div>
+        <div class="footer-links">
+            <a href="#">About</a>
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search Works</a>
+        </div>
+        <div class="footer-links">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
